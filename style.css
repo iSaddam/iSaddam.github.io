@@ -120,3 +120,13 @@ svg.icon { width: 14px; height: 14px; margin: 0 5px 0 8px; vertical-align: -0.15
 ::-webkit-scrollbar-corner {
     background: #ddd;
 }
+
+#rainbow {
+    color: #955494;
+    background: linear-gradient(92.05deg, #bca1f7 12.09%, #e577b4 42.58%, #ff7170 84.96%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
